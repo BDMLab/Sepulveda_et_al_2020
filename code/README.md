@@ -10,22 +10,24 @@ The folders for both experiments are structured in a similar way.
 	<i>SupplementaryModels</i>: hierarchical regression model comparison for choice and confidence.  
 
 
-2. <b>'glamModels'</b>: estimation and results from GLAM model analysis.
+2. 'glamModels'</b>: estimation and results from GLAM model analysis.
 
-	<i>GLAM_individual_...</i> : model parameter estimation for like and dislike (frame-evidence* and preference-evidence) in Value Experiment. In Perceptual Experiment most and fewest(frame-evidence and default-evidence). Separate scripts for each frame estimation.  
-	<i>Individual_Simulations_BalanceEvidence</i>: balance of evidence simulations, with and without gaze influence.  
+	<i>GLAM_individual_...</i> : model parameter estimation for like and dislike (frame-evidence* and preference-evidence) in Value Experiment. In Perceptual Experiment most and fewest(frame-evidence and default-evidence). Separate scripts for each frame estimation.
+    
+	<i>Individual_Simulations_BalanceEvidence</i>: balance of evidence simulations, with and without gaze influence.
+    
 	<i>Out_of_sample_comparison</i>: individual out-of-sample comparison test set vs GLAM predicted (Figure 5).  
 	<i>BE_ExtraFigs_SumVal</i>: generation of figures for balance of evidence simulations (Figure 6).  
 	<i>ParamsCompare</i>: comparison of GLAM parameters between frames.  
 	<i>ModelComparison</i>: WAIC score comparison for frame-evidence and preference-evidence models.  
 
-2.1 Additional folder "glamModels/results" contains output files from GLAM estimations plus our balance of evidence simulations:
+    2.1 Additional folder <b>'glamModels/results'</b> contains output files from GLAM estimations plus our balance of evidence simulations:
 
-    <i>glamModels/results/estimates</i>: contains GLAM estimation parameters.  
-    <i>glamModels/results/predictions</i>: contains simulated trials using GLAM parameters for each participant.  
-    <i>glamModels/results/preprocessed</i>: contains test sets for out-of-sample comparison.  
-    <i>glamModels/results/simulations_evidence</i>: contains balance of evidence simulations datasets.  
-    <i>glamModels/results/waic</i>: contains WAIC scores for each model and participant.  
+      <i>glamModels/results/estimates</i>: contains GLAM estimation parameters.  
+      <i>glamModels/results/predictions</i>: contains simulated trials using GLAM parameters for each participant.  
+      <i>glamModels/results/preprocessed</i>: contains test sets for out-of-sample comparison.  
+      <i>glamModels/results/simulations_evidence</i>: contains balance of evidence simulations datasets.  
+      <i>glamModels/results/waic</i>: contains WAIC scores for each model and participant.  
 
 
 -----

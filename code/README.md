@@ -6,6 +6,7 @@ The folders for both experiments are structured in a similar way.
 1. <b>'analysis'</b>: results from the behavioural analysis.  
 	<i>ResultsBehavioural</i>: analysis for logistic choice models (Figure 1), gaze distribution (Figure 2) and behavioural measures comparison.  
 	<i>FixationsAnalysis</i>: last fixation to chosen item analysis (Figure 3).  
+	<i>FixAnalysis_GazeInTime</i>: gaze preference in time (Figure 3).  
 	<i>RegressionModels</i>: hierarchical regression models for choice and confidence (Figures 2 and 4).  
 	<i>SupplementaryModels</i>: hierarchical regression model comparison for choice and confidence.  
 
